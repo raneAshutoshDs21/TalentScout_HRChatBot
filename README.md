@@ -7,6 +7,7 @@ Currently, the application runs as a monolithic Streamlit web app where both the
 ---
 
 ✨ Features (Current State)
+
 Stateful Conversation: Tracks the conversation state (GREETING, GATHER_INFO, ASK_QUESTIONS, END) using Streamlit's session state.
 
 Dynamic Question Generation: After collecting candidate background (name, role, tech stack), the system prompts the LLM to generate 3-5 technical screening questions specific to the declared technologies.
