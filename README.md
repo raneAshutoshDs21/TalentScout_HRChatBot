@@ -103,3 +103,8 @@ talent_scout/
 
 4. Frontend Update: Modify app/main.py to be a client that makes HTTP requests to the deployed API.
 
+**FRONT END**
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-30 212322" src="https://github.com/user-attachments/assets/610f1db4-86ae-4f21-a534-198de1dadcb7" />
+
+
