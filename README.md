@@ -90,6 +90,7 @@ talent_scout/
 ├── .env                      # Stores GEMINI_API_KEY (ignored by Git)
 ├── .gitignore                # Specifies files/folders to exclude from version control
 └── requirements.txt          # Project dependencies
+```
 
 ---
 
