@@ -41,7 +41,8 @@ Create a file named .env in the project root directory (D:\talent_scout) and add
 Code snippet
 
  **.env**
-GEMINI_API_KEY="AIzaSy...your...actual...key"
+ 
+ GEMINI_API_KEY="AIzaSy...your...actual...key"
 
 ---
 
