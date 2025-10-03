@@ -1,4 +1,5 @@
 🤖 TalentScout: AI Candidate Screener
+---
 TalentScout is a multi-stage, conversational HR assistant designed to streamline the initial candidate screening process. It uses the Google Gemini API (via LangChain) to gather essential information, dynamically generate relevant technical questions based on the candidate's provided tech stack, and manage the conversation state.
 
 Currently, the application runs as a monolithic Streamlit web app where both the user interface and the core AI logic reside.
