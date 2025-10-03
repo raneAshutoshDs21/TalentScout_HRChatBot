@@ -23,11 +23,11 @@ cd TalentScout_HRChatBot
 2. Virtual Environment & Dependencies
 Activate your virtual environment (using the standard venv or conda).
 
-# Create and activate venv (Windows example)
+**Create and activate venv (Windows example)**
 python -m venv talent_scout
 .\talent_scout\Scripts\activate
 
-# Install dependencies (streamlit, google-genai, langchain, etc.)
+**Install dependencies (streamlit, google-genai, langchain, etc.)**
 pip install -r requirements.txt
 
 3. API Key Configuration
@@ -35,7 +35,7 @@ Create a file named .env in the project root directory (D:\talent_scout) and add
 
 Code snippet
 
-# .env
+ **.env**
 GEMINI_API_KEY="AIzaSy...your...actual...key"
 
 💻 Running the Application
@@ -61,6 +61,7 @@ This command will:
 * When prompted, enter "NEXT" to transition to the Questioning phase, where dynamically generated questions will appear.
 
 📂 Project Structure
+
 talent_scout/
 ├── app/
 │   ├── __init__.py          # Marks 'app' as a package
