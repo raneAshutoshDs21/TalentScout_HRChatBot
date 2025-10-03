@@ -73,19 +73,23 @@ This command will:
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
+The project follows a standard Python package structure, optimized for transition to a client-server architecture.
+
+```text
 talent_scout/
 ├── app/
-│   ├── __init__.py          # Marks 'app' as a package
-│   ├── chat_logic.py        # Core TalentScoutAssistant LLM logic
-│   └── main.py              # Streamlit Frontend and application entry point
+│   ├── __init__.py           # Marks 'app' as a Python package
+│   ├── chat_logic.py         # Core LLM logic (will become the API backend)
+│   └── main.py               # Streamlit UI and local entry point
 ├── config/
-│   ├── __init__.py          # Marks 'config' as a package
-│   └── settings.py          # Configuration constants (API keys, models, states)
-├── data/                    # Placeholder for future data files
-├── .env                     # Stores GEMINI_API_KEY
-└── requirements.txt         # Project dependencies
+│   ├── __init__.py           # Marks 'config' as a Python package
+│   └── settings.py           # Configuration constants (API keys, states)
+├── data/                     # Placeholder for files like PDFs or CSVs
+├── .env                      # Stores GEMINI_API_KEY (ignored by Git)
+├── .gitignore                # Specifies files/folders to exclude from version control
+└── requirements.txt          # Project dependencies
 
 ---
 
